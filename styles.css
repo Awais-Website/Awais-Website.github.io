@@ -1,20 +1,42 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
+/* Header Styles */
+.top-bar {
+    background-color: #f9f9f9; /* Matching the rectangular box */
+    text-align: left; /* Align name to the left */
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50; /* Matching the text color of the heading */
+}
+
+/* Text and Heading Styles */
 h1 {
     color: #2c3e50;
 }
+
 p {
     color: #7f8c8d;
 }
+
+/* Profile Container */
 .profile-container {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin: 20px;
+    margin: 20px auto;
     max-width: 800px;
     border: 1px solid #ddd;
     padding: 20px;
@@ -22,6 +44,7 @@ p {
     background-color: #f9f9f9;
 }
 
+/* Profile Image */
 .profile-image {
     width: 200px;
     height: 200px;
@@ -29,6 +52,7 @@ p {
     border-radius: 8px;
 }
 
+/* Profile Text */
 .profile-text {
     font-family: Arial, sans-serif;
 }
@@ -43,6 +67,7 @@ p {
     font-size: 14px;
 }
 
+/* Profile Links */
 .profile-text a {
     color: #0078d4;
     text-decoration: none;
@@ -51,17 +76,3 @@ p {
 .profile-text a:hover {
     text-decoration: underline;
 }
-.top-bar {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.top-bar h1 {
-    margin: 0;
-    font-size: 24px;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
