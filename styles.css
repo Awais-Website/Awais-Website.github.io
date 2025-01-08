@@ -6,11 +6,10 @@ body {
     text-align: center; /* Center overall content */
 }
 
-
 /* Header Styles */
 .top-bar {
-    background-color: #f9f9f9; /* Background color for header */
-    text-align: left; /* Align text to the left */
+    background-color: #f9f9f9; /* Match profile background */
+    text-align: left; /* Align name to the left */
     padding: 15px 30px;
     border-bottom: 1px solid #ddd;
     font-family: Arial, sans-serif;
@@ -21,9 +20,8 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50; /* Header text color */
-    padding-left: 50px; /* Move the name slightly to the right */
+    margin-left: 1.3in; /* Move name 1.3 inches to the right */
 }
-
 
 /* Profile Container */
 .profile-container {
