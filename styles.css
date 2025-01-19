@@ -18,19 +18,18 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
-    margin-left: 1in; /* Shift the name slightly to the right */
-    text-align: center; /* Center header text on mobile */
+    text-align: left; /* Align name to the left */
 }
 
 /* Profile Section */
 .profile-container {
     display: flex;
-    align-items: center; /* Align items side-by-side */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     gap: 20px;
     margin: 40px 0; /* Add spacing from the header */
     max-width: 800px;
     padding: 0;
-    margin-left: 1.3in; /* Add 1.3 inches of left padding */
 }
 
 .profile-image {
@@ -43,6 +42,7 @@ body {
 .profile-text {
     font-family: Arial, sans-serif;
     text-align: left;
+    width: 100%; /* Take full width of the container */
 }
 
 .profile-text h3 {
