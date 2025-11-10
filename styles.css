@@ -121,6 +121,24 @@ section p {
     line-height: 1.6;
 }
 
+section h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+section h3 a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+section h3 a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .profile-container {
