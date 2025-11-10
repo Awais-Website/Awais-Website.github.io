@@ -139,6 +139,15 @@ section h3 a:hover {
     text-decoration: underline;
 }
 
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .profile-container {
