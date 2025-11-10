@@ -13,12 +13,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.3in;
+    margin-right: 1.3in;
+}
+
 .top-bar h1 {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
-    margin-left: 1.3in; /* Shift the name slightly to the right */
 }
 
 /* Profile Section */
@@ -71,15 +78,15 @@ body {
 /* Contact Links with Icons */
 .contact-links {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
 .contact-link {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     color: #0078d4;
     text-decoration: none;
     font-size: 14px;
@@ -88,6 +95,14 @@ body {
 
 .contact-link svg {
     flex-shrink: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-link span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .contact-link:hover {
@@ -191,9 +206,23 @@ section img {
         display: none; /* Remove navigation bar for mobile */
     }
 
+    .top-bar-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .top-bar h1 {
         text-align: center; /* Ensure header is centered */
         margin: 0; /* Reset margin */
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
     }
 
     section {
